@@ -1,0 +1,22 @@
+class Boat
+{
+ //Declaration of variables and loading boat image.
+    int x, y;
+
+ //initialising variables
+    Boat(int x, int y) {
+        this.x = x;
+        this.y = y;
+        Boat = loadImage("Boat.png");
+        Boat.resize(120, 110);
+    }
+     
+    void update() {
+      render();
+    }
+
+ //the render code below dictates that the boat appears on screen with the variables for it's position.
+    void render()  {
+            image(Boat, boatPosX, boatPosY);
+    }
+}
