@@ -10,6 +10,8 @@ class Boat
         Boat = loadImage("Boat.png");
         Boat.resize(120, 110);
     }
+         /* Updated for practicing purposes - Subtracting.*/
+
      
     void update() {
       render();
