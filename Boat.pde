@@ -19,4 +19,6 @@ class Boat
     void render()  {
             image(Boat, boatPosX, boatPosY);
     }
+
+    /* Git testing practice*/
 }
