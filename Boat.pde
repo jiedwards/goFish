@@ -15,6 +15,8 @@ class Boat
       render();
     }
 
+     /* Updated for practicing purposes.*/
+
  //the render code below dictates that the boat appears on screen with the variables for it's position.
     void render()  {
             image(Boat, boatPosX, boatPosY);
